@@ -1,1 +1,7 @@
-# Chat-app1
+För kopiera länken och skriv i terminalen 
+git clone https://github.com/sebbe10/Chat-app1.git
+sedan clickar jag på själva huvudmapen där det står open in integrated terminal
+när jag har gjort det skriver jag npm i 
+därefter nodemon server.js
+sedan är sidan igång.
+
