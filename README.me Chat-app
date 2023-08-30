@@ -18,3 +18,6 @@ Sidan är byggd genom att servern och klienterna är kopplade tillsamans.
 Att det finns en connection, där varje användare får sitt unika id. 
 Det finns också dissconect, där man ser vilket id som just har lämnat.
 Join room finns också för att man ska kunna joina rum.
+Så finns det också leave room för att man ska kunna lämmna rummet.
+Rooms avaible fins också för att kunna se vilka rum som är tillgänliga.
+Output message har jag också för att kunna skicka ut meddelande.
