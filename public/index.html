@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/index.js" defer></script>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body>
+    <a href="index.html"><button>Resert to write a new user</button></a>
+    <button class="leave">Lämmna rum</button>
+    <p class="showleave"></p>
+
+    <div class="login">
+      <div class="styleInside">
+        <h4 class="info">
+          Skriv ditt namn och vilket rum för att börja chatta!
+        </h4>
+
+        <input
+          class="writeName"
+          type="text"
+          placeholder="Write your username!" />
+        <input class="writeRoom" type="text" placeholder="Write room number!" />
+        <button class="sendToTheRoom">Skicka</button>
+      </div>
+    </div>
+    <!-- <ul class="theList"></ul> -->
+    <ul class="theListRoom"></ul>
+
+    <div class="messStyle">
+      <div class="styleMess">
+        <h2>Meddelande</h2>
+        <div class="theInputButton">
+          <input id="writer" class="inputChat" type="text" />
+          <button class="sendMessage">Send</button>
+          <p class="output-writer"></p>
+        </div>
+        <ul class="theList"></ul>
+      </div>
+    </div>
+
+    <ul class="output-message"></ul>
+  </body>
+</html>
