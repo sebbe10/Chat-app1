@@ -14,3 +14,6 @@ Chattar för varje rum ska inte synnas i andra rum.
 Och så ska man kunna se vem som just skriver.
 Och när användaren har skickat ett meddelande så ska det stå just vem som har skickat det.
 
+Sidan är byggd genom att servern och klienterna är kopplade tillsamans.
+Att det finns en connection, där varje användare får sitt unika id. 
+Det finns också dissconect, där man ser vilket id som just har lämnat.
