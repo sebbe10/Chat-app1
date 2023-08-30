@@ -5,7 +5,8 @@ när jag har gjort det skriver jag npm i
 därefter nodemon server.js
 sedan är sidan igång.
 
-Själva beskrivningen av uppgiften är att jag ska kunna välja ett namn och kunna välja ett rums namn och skapa detta genom att klicka på skicka knappen.
+Själva beskrivningen av uppgiften är att jag ska kunna välja ett namn och kunna välja ett rums namn,
+och skapa detta genom att klicka på skicka knappen.
 Det ska också kunna gå att bara skapa ett namn och sedan klicka på skicka knappen.
 Rum som inte har användare ska inte synas och rum som har användare i sig ska synnas. 
 Om jag är den sista användaren i rummet och lämmnar det ska det då försvinna.
