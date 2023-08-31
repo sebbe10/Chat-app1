@@ -1,0 +1,23 @@
+kopiera länken och skriv i terminalen 
+git clone https://github.com/sebbe10/Chat-app1.git
+sedan clickar jag på själva huvudmapen där det står open in integrated terminal
+när jag har gjort det skriver jag npm i 
+därefter nodemon server.js
+sedan är sidan igång.
+
+Själva beskrivningen av uppgiften är att jag ska kunna välja ett namn och kunna välja ett rums namn,
+och skapa detta genom att klicka på skicka knappen.
+Det ska också kunna gå att bara skapa ett namn och sedan klicka på skicka knappen.
+Rum som inte har användare ska inte synas och rum som har användare i sig ska synnas. 
+Om jag är den sista användaren i rummet och lämmnar det ska det då försvinna.
+Chattar för varje rum ska inte synnas i andra rum. 
+Och så ska man kunna se vem som just skriver.
+Och när användaren har skickat ett meddelande så ska det stå just vem som har skickat det.
+
+Sidan är byggd genom att servern och klienterna är kopplade tillsamans.
+Att det finns en connection, där varje användare får sitt unika id. 
+Det finns också dissconect, där man ser vilket id som just har lämnat.
+Join room finns också för att man ska kunna joina rum.
+Så finns det också leave room för att man ska kunna lämmna rummet.
+Rooms avaible fins också för att kunna se vilka rum som är tillgänliga.
+Output message har jag också för att kunna skicka ut meddelande.
